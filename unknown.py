@@ -269,13 +269,13 @@ def linex():
 #_________[ TOOL LOGO ]______>>
 logo =""" \x1b[38;5;8m
 
-   ███    ██ ██   ██ ███    ██ ██     ██ ███    ██ 
+   \033[1;37m███    ██ ██   ██ ███    ██ ██     ██ ███    ██ 
    ████   ██ ██  ██  ████   ██ ██     ██ ████   ██ 
-   ██ ██  ██ █████   ██ ██  ██ ██  █  ██ ██ ██  ██ 
+   \033[1;37m██ ██  ██ █████   ██ ██  ██ ██  █  ██ ██ ██  ██ 
    ██  ██ ██ ██  ██  ██  ██ ██ ██ ███ ██ ██  ██ ██ 
-   ██   ████ ██   ██ ██   ████  ███ ███  ██   ████ 
+   \033[1;37m██   ████ ██   ██ ██   ████  ███ ███  ██   ████ 
    
-    [\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL NAME          \x1b[38;5;8m:       \033[1;37mUNKNOWN
+    \x1v[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL NAME          \x1b[38;5;8m:       \033[1;37mUNKNOWN
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL OWNER         \x1b[38;5;8m:       \033[1;37mEIFF HUCZN
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL TYPE          \x1b[38;5;8m:       \033[1;37mFILE CLONING
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL VERSION      \x1b[38;5;8m :       \033[1;37mEXPERIMENT 
@@ -347,7 +347,7 @@ def menu():
                                         clear()
                                         total_ids = str(len(fo))
                                         print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mYOUR IP ADDRESS   \x1b[38;5;8m :     \033[1;91m'+ip,'\033[1;37m') 
-                                        print(f"  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCLONING STARTED   \033[38;5;8m :    \033[1;36m"+str(a)+"\033[1;37m:\033[1;36m"+str(lt()[4])+" "+ tag+"\x1b[1;32m")
+                                        print(f"  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCLONING STARTED   \033[38;5;8m :     \033[1;36m"+str(a)+"\033[1;37m:\033[1;36m"+str(lt()[4])+" "+ tag+"\x1b[1;32m")
                                         print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mTOTAL IDS         \x1b[38;5;8m :     \033[1;37m'+total_ids)
                                         print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mMETHOD            \x1b[38;5;8m :     \033[1;37mM{mthd}')
                                         linex()
@@ -716,8 +716,6 @@ def api1(ids,names,passlist):
                                 model = random.choice(['Infinix_X521','Infinix X672','Infinix X6815B','Infinix X6815B','Infinix X6515','Infinix X6516','Infinix X6825','Infinix X5516B','Infinix X669C','Infinix X669D','Infinix X6815C','Infinix X670','Infinix X5516C','Infinix X6826B','Infinix X5516C','Infinix X676C','Infinix X697','Infinix X5516B','Infinix X6515','Infinix X6811'])
                                 fbap = random.choice(['414.0.0.30.113','414.0.0.30.113','354.0.0.8.108','354.0.0.8.108','405.0.0.16.112','414.0.0.30.113','414.0.0.30.113','413.0.0.30.104','414.0.0.30.113','408.1.0.16.113'])
                                 ua = '[FBAN/FB4A;FBAV/'+fbap+';FBBV/'+fbbv+';FBDM/{density=3.5,width=1080,height=1408};FBLC/'+fblc+';FBRV/397570686;FBCR/'+fbcr+';FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/'+model+';FBSV/'+android_version+'.11;FBOP/1;FBCA/arm64-v8a:;]'
-                                ua = '[FBAN/FB4A;FBAV/'+fbap+';FBBV/'+fbbv+';FBDM/{density=2.4,width=1080,height=1477};FBLC/'+fblc+';FBRV/767019252;FBCR/'+fbcr+';FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/'+model+';FBSV/'+android_version+'.;FBOP/1;FBCA/arm64-v8a:;]'
-                                ua = '[FBAN/FB4A;FBAV/'+fbap+';FBBV/'+fbvv+';FBDM/{density=2.3,width=1080,height=1464};FBLC/'+fblc+';FBRV/274683328;FBCR/'+fbcr+';FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/'+model-';FBSV/'+andriod_version+'12;FBOP/1;FBCA/arm64-v8a:;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {'email':ids,
