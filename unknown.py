@@ -715,7 +715,9 @@ def api1(ids,names,passlist):
                                 fban = 'FB4A'
                                 model = random.choice(['Infinix_X521','Infinix X672','Infinix X6815B','Infinix X6815B','Infinix X6515','Infinix X6516','Infinix X6825','Infinix X5516B','Infinix X669C','Infinix X669D','Infinix X6815C','Infinix X670','Infinix X5516C','Infinix X6826B','Infinix X5516C','Infinix X676C','Infinix X697','Infinix X5516B','Infinix X6515','Infinix X6811'])
                                 fbap = random.choice(['414.0.0.30.113','414.0.0.30.113','354.0.0.8.108','354.0.0.8.108','405.0.0.16.112','414.0.0.30.113','414.0.0.30.113','413.0.0.30.104','414.0.0.30.113','408.1.0.16.113'])
-                                ua = '[FBAN/FB4A;FBAV/'+fbap+';FBBV/'+fbbv+';FBDM/{density=2.3,width=1080,height=1441};FBLC/ '+fblc+';FBRV/383225611;FBCR/'+fbcr+';FBMF/Xiaomi;FBBD/xiaomi;FBPN/com.facebook.katana;FBDV/'+model+';FBSV/'+android_version+'.12;FBOP/1;FBCA/arm64-v8a:;]'
+                                ua = '[FBAN/FB4A;FBAV/'+fbap+';FBBV/'+fbbv+';FBDM/{density=3.5,width=1080,height=1408};FBLC/'+fblc+';FBRV/397570686;FBCR/'+fbcr+';FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/'+model+';FBSV/'+android_version+'.11;FBOP/1;FBCA/arm64-v8a:;]'
+                                ua = '[FBAN/FB4A;FBAV/'+fbap+';FBBV/'+fbbv+';FBDM/{density=2.4,width=1080,height=1477};FBLC/'+fblc+';FBRV/767019252;FBCR/'+fbcr+';FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/'+model+';FBSV/'+android_version+'.;FBOP/1;FBCA/arm64-v8a:;]'
+                                ua = '[FBAN/FB4A;FBAV/'+fbap+';FBBV/'+fbvv+';FBDM/{density=2.3,width=1080,height=1464};FBLC/'+fblc+';FBRV/274683328;FBCR/'+fbcr+';FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/'+model-';FBSV/'+andriod_version+'12;FBOP/1;FBCA/arm64-v8a:;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {'email':ids,
