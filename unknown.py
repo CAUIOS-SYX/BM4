@@ -203,36 +203,7 @@ if ltx > 12:
 else:
     a = ltx
     tag = "AM"
-#-----------------------[DATE Checker For FILE CLONING]-----------------------#
-def joined(ids):
-    if len(ids)==15:
-        if ids[:10] in ['1000000000']       :creation = '\33[1;37m| \33[1;33m2009' 
-        elif ids[:9] in ['100000000']       :creation = '\33[1;37m| \33[1;33m2009' 
-        elif ids[:8] in ['10000000']        :creation = '\33[1;37m| \33[1;33m2009' 
-        elif ids[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:creation = '\33[1;37m| \33[1;33m2009' 
-        elif ids[:7] in ['1000006','1000007','1000008','1000009']:creation = '\33[1;37m| \33[1;33m2010' 
-        elif ids[:6] in ['100001']          :creation = '\33[1;37m| \33[1;33m2010\33[1;37m/\33[1;33m2011'
-        elif ids[:6] in ['100002','100003'] :creation = '\33[1;37m| \33[1;33m2011\33[1;37m/\33[1;33m2012'
-        elif ids[:6] in ['100004']          :creation = '\33[1;37m| \33[1;33m2012\33[1;37m/\33[1;33m2013'
-        elif ids[:6] in ['100005','100006'] :creation = '\33[1;37m| \33[1;33m2013\33[1;37m/\33[1;33m2014'
-        elif ids[:6] in ['100007','100008'] :creation = '\33[1;37m| \33[1;33m2014\33[1;37m/\33[1;33m2015'
-        elif ids[:6] in ['100009']          :creation = '\33[1;37m| \33[1;33m2015' 
-        elif ids[:5] in ['10001']           :creation = '\33[1;37m| \33[1;33m2015\33[1;37m/\33[1;33m2016'
-        elif ids[:5] in ['10002']           :creation = '\33[1;37m| \33[1;33m2016\33[1;37m/\33[1;33m2017'
-        elif ids[:5] in ['10003']           :creation = '\33[1;37m| \33[1;33m2018\33[1;37m/\33[1;33m2019'
-        elif ids[:5] in ['10004']           :creation = '\33[1;37m| \33[1;33m2019\33[1;37m/\33[1;33m2020'
-        elif ids[:5] in ['10005']           :creation = '\33[1;37m| \33[1;33m2020' 
-        elif ids[:5] in ['10006','10007','']:creation = '\33[1;37m| \33[1;33m2021' 
-        elif ids[:5] in ['10008']           :creation = '\33[1;37m| \33[1;33m2022' 
-        else:creation=''
-    elif len(ids) in [9,10]:
-        creation = '\33[1;37m| \33[1;33m2008/2009'
-    elif len(ids)==8:
-        creation = '\33[1;37m| \33[1;33m2007/2008'
-    elif len(ids)==7:
-        creation = '\33[1;37m| \33[1;33m2006/2007'
-    else:creation=''
-    return creation
+
 #-----------------------[DATE Checker For FILE CLONING]-----------------------#
 def joined(ids):
     if len(ids)==15:
@@ -253,7 +224,8 @@ def joined(ids):
         elif ids[:5] in ['10004']           :creation = ' \33[1;33m2019\33[1;37m/\33[1;33m2020'
         elif ids[:5] in ['10005']           :creation = ' \33[1;33m2020' 
         elif ids[:5] in ['10006','10007','']:creation = ' \33[1;33m2021' 
-        elif ids[:5] in ['10008']           :creation = ' \33[1;33m2022' 
+        elif ids[:5] in ['10008']           :creation = ' \33[1;33m2022'
+        elif ids[:5] in ['10009','6155'] :ceation = ' \33[1;33m2023'
         else:creation=''
     elif len(ids) in [9,10]:
         creation = ' \33[1;33m2008/2009'
