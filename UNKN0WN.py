@@ -296,7 +296,7 @@ def unkn0wn():
                                         time.sleep(1)
                                         unkn0wn()
                                 clear()
-                                print("\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE METHOD 2")
+                                print("\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE METHOD 4")
                                 line()
                                 
                                 print('\x1b[38;5;8m  [\033[1;32m1\x1b[38;5;8m] \033[1;37mMETHOD 1 (working)')
